@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    name="image_israel",
+    version="0.0.5",
+    author="israelclaudio",
+    author_email="israelclaudio21@gmail.com",
+    description="Pacote criado para processamento de imagem, a partir do curso de criação de pacotes da DIO",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/israelclaudio/image_processing_package",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
